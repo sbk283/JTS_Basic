@@ -30,6 +30,6 @@ public class AnswerController {
 
         Answer answer = this.answerService.create(q, answerForm.getContent());
 
-        return "redirect:/question/detail/{id}}";
+        return "redirect:/question/detail/{id}";
     }
 }
